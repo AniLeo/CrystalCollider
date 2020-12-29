@@ -1,0 +1,77 @@
+Tube:
+  Some sort of main game settings node
+  TODO: Game checks whether version Attribute exists and stores it if so
+
+float Acceleration
+float StartSpeed
+float MaxSpeed
+float SpeedDisplayMultiplier
+
+
+Pilot:
+  Related to mouse sensitivity
+
+float Min
+float Max
+float Default
+float Inertia
+
+
+unk1:
+  Only contains unk2 childs, no attributes
+
+
+unk2:
+  Related to game map colors per speed level
+
+float val
+string color
+string obstacleBaseColor
+string obstacleTexColor
+string obstacleOutlineColor
+
+
+GUIController:
+  Contains UI/Ad related information and saveMeCosts childs
+
+float Timeout
+int Count
+bool AdsAllowed
+int AdsInterval
+
+
+saveMeCost
+  Apparently represent coin costs for each save cost in a gameplay run
+
+int cost
+
+
+UserProfile:
+  User related data
+
+int StartingLives
+int RecoveryTime
+
+
+AdSettings:
+  Ad related data
+  TODO: Test remaining optionals
+
+bool AdsDisabled
+int NumberOfGameplaysToEnable
+?int FreeCoinsAmount
+?int FreeLivesAmount
+?int SpecialFreeShipsAmount
+?int SpecialOfferCooldown (Seconds)
+?bool isPremium (Disables Ads)
+
+
+TournamentRewards
+  Has 10 TournamentReward childs
+
+
+TournamentReward
+  Something to do with Leaderboards, probably
+  amount of coins awarded to weekly high scores
+
+int value

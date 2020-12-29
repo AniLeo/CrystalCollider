@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shop>
+  <ShopPanel name="Category">
+    <ShopItem name="Nothing" productId="1" rewardType="coin" icon=""/>
+  </ShopPanel>
+</Shop>

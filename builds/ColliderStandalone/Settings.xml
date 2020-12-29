@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+  <Tube Acceleration="2.0" StartSpeed="1.0" MaxSpeed="2000.0" SpeedDisplayMultiplier="2.0" version="1.0"/>
+
+  <Pilot Min="1.0" Max="100.0" Default="50.0" Inertia="1.0"/>
+
+  <unk1_SpeedLevels>
+    <unk2 val="0.0" color="100,100,100" obstacleBaseColor="100,0,0" obstacleTexColor="0,100,0" obstacleOutlineColor="0,0,100"/>
+    <unk2 val="100.0" color="200,200,200" obstacleBaseColor="200,0,0" obstacleTexColor="0,200,0" obstacleOutlineColor="0,0,200"/>
+    <unk2 val="200.0" color="255,0,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="300.0" color="0,255,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="400.0" color="0,0,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="500.0" color="0,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="600.0" color="255,255,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="700.0" color="255,0,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="800.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="900.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="1000.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="1100.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="1200.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+    <unk2 val="1300.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
+  </unk1_SpeedLevels>
+
+  <GUIController Timeout="5.0" Count="3" AdsAllowed="False" AdsInterval="3600">
+    <saveMeCost cost="1"/>
+    <saveMeCost cost="1"/>
+    <saveMeCost cost="1"/>
+  </GUIController>
+
+  <UserProfile StartingLives="3" RecoveryTime="2"/>
+
+  <AdSettings AdsDisabled="true" NumberOfGameplaysToEnable="0" isPremium="true"/>
+
+  <TournamentRewards>
+    <TournamentReward value="10000"/>
+    <TournamentReward value="9000"/>
+    <TournamentReward value="8000"/>
+    <TournamentReward value="7000"/>
+    <TournamentReward value="6000"/>
+    <TournamentReward value="5000"/>
+    <TournamentReward value="4000"/>
+    <TournamentReward value="3000"/>
+    <TournamentReward value="2000"/>
+    <TournamentReward value="1000"/>
+  </TournamentRewards>
+</Settings>

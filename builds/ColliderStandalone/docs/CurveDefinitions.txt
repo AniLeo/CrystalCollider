@@ -1,0 +1,9 @@
+CurveDefinition
+  Something related to curves...
+
+Vector2 speed (min:max)
+Vector2 curvature (min:max)
+Vector2 angle (min:max)
+Vector2 length (min:max)
+Vector2 spaceBefore (min:max)
+float weight

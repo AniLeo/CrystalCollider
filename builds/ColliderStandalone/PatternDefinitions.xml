@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PatternDefinitions>
+  <Pattern speed="1:2000" spaceBefore="1:100" weight="10.0">
+    <Obstacle spaceAfter="1:100" rotation="1:90" rotationSpeed="1:100" mesh="Obstacle1">
+      <Pickup slot="1" type="coin"/>
+    </Obstacle>
+  </Pattern>
+</PatternDefinitions>

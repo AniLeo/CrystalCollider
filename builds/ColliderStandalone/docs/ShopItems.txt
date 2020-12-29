@@ -1,0 +1,18 @@
+Shop:
+  Has one ShopPanel, no attributes
+
+
+ShopPanel
+  Has ShopItem childs
+
+string name
+
+
+ShopItem
+  Item for shop
+  TODO: Optionals
+
+string name
+string productId
+string rewardType
+string icon

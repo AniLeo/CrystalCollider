@@ -1,0 +1,30 @@
+PatternDefinitions
+  Contains several Pattern childs
+
+?string version
+
+
+Pattern
+  Something related to patterns..
+  Contains Obstacle child nodes
+
+Vector2 speed (min:max)
+Vector2 spaceBefore (min:max)
+float weight
+
+
+Obstacles
+  Something related to obstacles..
+  mesh is a name for something, presumably object name
+
+Vector2 spaceAfter (min:max)
+Vector2 rotation (min:max)
+Vector2 rotationSpeed (min:max)
+string mesh
+
+
+Pickup
+  Presumably collectable objects in obstacles
+
+int slot
+string type (Always "coin")
