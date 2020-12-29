@@ -1,5 +1,8 @@
-CurveDefinition
-  Something related to curves...
+CurveDefinitions
+  Has any amount of Curve childs
+
+Curve
+  A curve
 
 Vector2 speed (min:max)
 Vector2 curvature (min:max)

@@ -15,7 +15,7 @@ float weight
 
 Obstacles
   Something related to obstacles..
-  mesh is a name for something, presumably object name
+  mesh is the resource name for the obstacle type
 
 Vector2 spaceAfter (min:max)
 Vector2 rotation (min:max)
@@ -27,4 +27,4 @@ Pickup
   Presumably collectable objects in obstacles
 
 int slot
-string type (Always "coin")
+string type (Always "coin", even if you don't set it as such)

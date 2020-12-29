@@ -1,8 +1,172 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PatternDefinitions>
-  <Pattern speed="1:2000" spaceBefore="1:100" weight="10.0">
-    <Obstacle spaceAfter="1:100" rotation="1:90" rotationSpeed="1:100" mesh="Obstacle1">
-      <Pickup slot="1" type="coin"/>
+<?xml version="1.0" encoding="utf-8"?>
+<PatternDefinitions version="">
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_1_M_a">
+      <Pickup slot="0" type="coin" />
     </Obstacle>
   </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_1_M_b">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_2_MM_aa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_2_SM_aa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_3_SSS_aaa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_keyhole">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_smile_short">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_smile_short_double">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_rect">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_thunderbolt">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_boat">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_double_boat">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_asymetric_bar">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="0:15" spaceBefore="5" weight="6">
+    <Obstacle spaceAfter="3.5" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_double_rect">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_1_M_a">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_1_M_b">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_2_MM_aa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_2_SM_aa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_3_SSS_aaa">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_keyhole">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_smile_short">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_smile_short_double">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_rect">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_thunderbolt">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_boat">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_double_boat">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_asymetric_bar">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
+  <Pattern speed="15:1000" spaceBefore="10" weight="6">
+    <Obstacle spaceAfter="7" rotation="0:360" rotationSpeed="-100:100"   mesh="Obst_double_rect">
+      <Pickup slot="0" type="coin" />
+    </Obstacle>
+  </Pattern>
+
 </PatternDefinitions>

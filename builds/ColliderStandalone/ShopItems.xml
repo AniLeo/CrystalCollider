@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Shop>
-  <ShopPanel name="Category">
-    <ShopItem name="Nothing" productId="1" rewardType="coin" icon=""/>
+  <ShopPanel name="CoinsPanel">
+    <ShopItem name="Coins1" productId="com.shortbreakstudios.colliderpremium.coins2"
+              onSale="false" saleProductId="" rewardType="coin" rewardAmount="2500"
+              position="Item1" icon="SpriteSmallCoins"
+              shopDescription="SMALL COIN PACK"/>
+
+    <ShopItem name="Coins2" productId="com.shortbreakstudios.colliderpremium.coins3"
+              onSale="false" saleProductId="com.shortbreakstudios.tube.coins2"
+              rewardType="coin" rewardAmount="8000" position="Item2"
+              icon="SpriteMediumCoins" saleLabelText="30%"
+              shopDescription="COIN PACK"/>
+
+    <ShopItem name="Coins3" productId="com.shortbreakstudios.colliderpremium.coins5"
+              onSale="false" saleProductId="com.shortbreakstudios.tube.coins4"
+              rewardType="coin" rewardAmount="40000" position="Item3"
+              icon="SpriteLargeCoins" bestDeal="true"
+              shopDescription="BIG COIN PACK"
+              specialOffer="true"
+              specialOfferType="coin"/>
+
+    <ShopItem name="DoubleCoin" productId="com.shortbreakstudios.colliderpremium.doubleCoins"
+              onSale="false" saleProductId=""
+              rewardType="persistent" position="Item4"
+              icon="SpriteDoubleCoins"
+              shopDescription="DOUBLE COIN"/>
+  </ShopPanel>
+
+
+  <ShopPanel name="ShipsPanel">
+    <ShopItem name="Lives1" productId="com.shortbreakstudios.tube.lives2"
+              onSale="false" saleProductId="" rewardType="life" rewardAmount="30"
+              position="Item1" icon="SpriteShipSmall"
+              shopDescription="SMALL SHIPS PACK"/>
+
+    <ShopItem name="Lives2" productId="com.shortbreakstudios.tube.lives3"
+              onSale="false" saleProductId="com.shortbreakstudios.tube.lives3"
+              rewardType="life" rewardAmount="70" position="Item2"
+              icon="SpriteShipMedium" saleLabelText="30%"
+              shopDescription="SHIPS PACK"/>
+
+    <ShopItem name="Lives3" productId="com.shortbreakstudios.tube.lives5"
+              onSale="false" saleProductId="com.shortbreakstudios.tube.lives5"
+              rewardType="life" rewardAmount="200" position="Item3"
+              icon="SpriteShipLarge" bestDeal="true"
+              shopDescription="BIG SHIPS PACK"/>
+
+    <ShopItem name="RemoveLives" productId="com.shortbreakstudios.tube.removeLives"
+              onSale="false" saleProductId="com.shortbreakstudios.tube.removeLivesPromo"
+              rewardType="persistent" position="Item4"
+              icon="SpriteRemoveShipLimit"
+              shopDescription="REMOVE SHIP LIMIT"
+              specialOffer="true"
+              specialOfferType="ship"/>
+  </ShopPanel>
+
+
+  <ShopPanel name="ShopPanel">
+    <ShopItem name="RemoveAds" productId="com.shortbreakstudios.tuba" onSale="false"
+              saleProductId="" rewardType="persistent" rewardAmount=""
+              position="Item3"
+              icon="SpriteRemoveAds"
+              shopDescription="REMOVE ADS"/>
+
+    <ShopItem name="RemoveAds+RemoveLives" productId="com.shortbreakstudios.tube.removeAdsAndLives" onSale="false"
+              saleProductId="" rewardType="persistent" rewardAmount=""
+              position="Item4" bestDeal="true"
+              icon="SpriteRemoveShipLimitAndAds"
+              shopDescription="REMOVE ADS + SHIP LIMIT"/>
+
+    <ShopItem name="GoldenFont" productId="com.shortbreakstudios.colliderpremium.goldenFont"
+              onSale="false" saleProductId="" rewardType="persistent"
+              icon=""/>
+
+    <ShopItem name="UnlockLevels" productId="com.shortbreakstudios.colliderpremium.unlocker"
+              onSale="false" saleProductId="" rewardType="persistent"
+              icon=""/>
   </ShopPanel>
 </Shop>

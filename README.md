@@ -5,15 +5,15 @@ This game notably downloads a big amount of data from the server, from game sett
 
 ## Features
 - [x] Game initialization
-- [ ] Speed levels (100 to 1300)
-- [ ] Level colors
-- [ ] Level obstacles
-- [ ] Level curves
-- [ ] Level patterns
+- [x] Speed levels (100 to 1300)
+- [x] Level colors
+- [x] Level obstacles
+- [x] Level curves
+- [x] Level patterns
+- [x] Weekly tournament rewards
 - [ ] Shop
 - [ ] Register new player
 - [ ] Leaderboards
-- [x] Weekly tournament rewards
 
 ## Requirements
 - [PHP 7.4+](https://secure.php.net/downloads.php)

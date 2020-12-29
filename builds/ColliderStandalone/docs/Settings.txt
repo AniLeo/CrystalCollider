@@ -1,14 +1,15 @@
-Tube:
+SpeedSettings:
   Some sort of main game settings node
-  TODO: Game checks whether version Attribute exists and stores it if so
+  Game checks whether version Attribute exists and stores it if so, seems to be unused
 
 float Acceleration
 float StartSpeed
 float MaxSpeed
 float SpeedDisplayMultiplier
+?string version
 
 
-Pilot:
+SensitivitySettings:
   Related to mouse sensitivity
 
 float Min
@@ -17,21 +18,22 @@ float Default
 float Inertia
 
 
-unk1:
-  Only contains unk2 childs, no attributes
+SpeedThresholds:
+  Only contains Threshold childs, no attributes
 
 
-unk2:
+Threshold:
   Related to game map colors per speed level
+  Note: Game does not use alpha values even if you try to add them
 
 float val
-string color
-string obstacleBaseColor
-string obstacleTexColor
-string obstacleOutlineColor
+string color (r,g,b)
+string obstacleBaseColor (r,g,b)
+string obstacleTexColor (r,g,b)
+string obstacleOutlineColor (r,g,b)
 
 
-GUIController:
+SaveMeSettings:
   Contains UI/Ad related information and saveMeCosts childs
 
 float Timeout
@@ -40,13 +42,13 @@ bool AdsAllowed
 int AdsInterval
 
 
-saveMeCost
+SaveMeCost
   Apparently represent coin costs for each save cost in a gameplay run
 
 int cost
 
 
-UserProfile:
+LivesSettings:
   User related data
 
 int StartingLives
@@ -55,7 +57,6 @@ int RecoveryTime
 
 AdSettings:
   Ad related data
-  TODO: Test remaining optionals
 
 bool AdsDisabled
 int NumberOfGameplaysToEnable

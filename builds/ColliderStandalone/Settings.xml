@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings>
-  <Tube Acceleration="2.0" StartSpeed="1.0" MaxSpeed="2000.0" SpeedDisplayMultiplier="2.0" version="1.0"/>
+  <SpeedSettings Acceleration="0.125" StartSpeed="2.5" MaxSpeed="30" SpeedDisplayMultiplier="40" version=""/>
+  <SensitivitySettings Default="4.5" Min="1.0" Max="20" Inertia="0.15"/>
 
-  <Pilot Min="1.0" Max="100.0" Default="50.0" Inertia="1.0"/>
+  <SpeedThresholds>
+    <Threshold val="0"    color="0,191,59"    obstacleBaseColor="80,133,1"    obstacleTexColor="139,249,2"   obstacleOutlineColor="185,255,0"   />
+    <Threshold val="2.5"  color="0,191,59"    obstacleBaseColor="80,133,1"    obstacleTexColor="139,249,2"   obstacleOutlineColor="185,255,0"   />
+    <Threshold val="5"    color="240,215,0"   obstacleBaseColor="255,216,0"   obstacleTexColor="0,0,0"       obstacleOutlineColor="255,239,48"  />
+    <Threshold val="7.5"  color="211,0,95"    obstacleBaseColor="255,0,108"   obstacleTexColor="255,198,121" obstacleOutlineColor="255,202,116" />
+    <Threshold val="10"   color="240,248,139" obstacleBaseColor="163,206,29"  obstacleTexColor="240,254,140" obstacleOutlineColor="242,255,141" />
+    <Threshold val="12.5" color="9,62,168"    obstacleBaseColor="0,71,215"    obstacleTexColor="65,157,255"  obstacleOutlineColor="104,216,254" />
+    <Threshold val="15"   color="255,255,255" obstacleBaseColor="186,186,186" obstacleTexColor="255,255,255" obstacleOutlineColor="255,255,255" />
+    <Threshold val="17.5" color="248,134,1"   obstacleBaseColor="255,97,0"    obstacleTexColor="255,162,23"  obstacleOutlineColor="255,176,32"  />
+    <Threshold val="20"   color="0,208,192"   obstacleBaseColor="1,222,238"   obstacleTexColor="233,254,185" obstacleOutlineColor="241,254,184" />
+    <Threshold val="22.5" color="151,56,238"  obstacleBaseColor="190,31,237"  obstacleTexColor="175,248,231" obstacleOutlineColor="188,255,211" />
+    <Threshold val="25"   color="186,0,1"     obstacleBaseColor="91,20,18"    obstacleTexColor="255,0,1"     obstacleOutlineColor="255,87,66"   />
+    <Threshold val="27.5" color="91,91,91"    obstacleBaseColor="68,68,68"    obstacleTexColor="12,12,12"    obstacleOutlineColor="255,227,37"  />
+    <Threshold val="30"   color="143,19,153"  obstacleBaseColor="516,19,151"  obstacleTexColor="236,92,31"   obstacleOutlineColor="255,111,186" />
+    <Threshold val="32.5" color="147,182,0"   obstacleBaseColor="245,255,0"   obstacleTexColor="44,47,0"     obstacleOutlineColor="253,226,0"   />
+  </SpeedThresholds>
 
-  <unk1_SpeedLevels>
-    <unk2 val="0.0" color="100,100,100" obstacleBaseColor="100,0,0" obstacleTexColor="0,100,0" obstacleOutlineColor="0,0,100"/>
-    <unk2 val="100.0" color="200,200,200" obstacleBaseColor="200,0,0" obstacleTexColor="0,200,0" obstacleOutlineColor="0,0,200"/>
-    <unk2 val="200.0" color="255,0,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="300.0" color="0,255,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="400.0" color="0,0,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="500.0" color="0,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="600.0" color="255,255,0" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="700.0" color="255,0,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="800.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="900.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="1000.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="1100.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="1200.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-    <unk2 val="1300.0" color="255,255,255" obstacleBaseColor="255,0,0" obstacleTexColor="0,255,0" obstacleOutlineColor="0,0,255"/>
-  </unk1_SpeedLevels>
+  <SaveMeSettings Timeout="2.5" Count="3" AdsAllowed="False" AdsInterval="3600">
+    <SaveMeCost cost="5"/>
+    <SaveMeCost cost="20"/>
+    <SaveMeCost cost="50"/>
+  </SaveMeSettings>
 
-  <GUIController Timeout="5.0" Count="3" AdsAllowed="False" AdsInterval="3600">
-    <saveMeCost cost="1"/>
-    <saveMeCost cost="1"/>
-    <saveMeCost cost="1"/>
-  </GUIController>
+  <LivesSettings StartingLives="10" RecoveryTime="1"/>
 
-  <UserProfile StartingLives="3" RecoveryTime="2"/>
-
-  <AdSettings AdsDisabled="true" NumberOfGameplaysToEnable="0" isPremium="true"/>
+  <AdSettings AdsDisabled="true" NumberOfGameplaysToEnable="10"
+              FreeCoinsAmount="100" FreeLivesAmount="1"
+              SpecialFreeShipsAmount="5" SpecialOfferCooldown="9000000"
+              IsPremium="true"/>
 
   <TournamentRewards>
     <TournamentReward value="10000"/>
-    <TournamentReward value="9000"/>
-    <TournamentReward value="8000"/>
-    <TournamentReward value="7000"/>
-    <TournamentReward value="6000"/>
     <TournamentReward value="5000"/>
-    <TournamentReward value="4000"/>
-    <TournamentReward value="3000"/>
     <TournamentReward value="2000"/>
+    <TournamentReward value="1000"/>
+    <TournamentReward value="1000"/>
+    <TournamentReward value="1000"/>
+    <TournamentReward value="1000"/>
+    <TournamentReward value="1000"/>
+    <TournamentReward value="1000"/>
     <TournamentReward value="1000"/>
   </TournamentRewards>
 </Settings>

@@ -1,3 +1,5 @@
+TODO: Fully document
+
 Shop:
   Has one ShopPanel, no attributes
 

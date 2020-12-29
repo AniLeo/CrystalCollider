@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CurveDefinition speed="1:2000" curvature="1:2000" angle="1:2000" length="1:2000" spaceBefore="1:100" weight="10.0"/>
+<CurveDefinitions>
+  <Curve speed="0:2.5" curvature="0.0" angle="0:00" length="100" spaceBefore="10" weight="1" />
+  <Curve speed="2.5:5" curvature="3.0" angle="0:50" length="100" spaceBefore="10" weight="1" />
+  <Curve speed="5:7.5" curvature="0.0" angle="0:00" length="100" spaceBefore="10" weight="1" />
+  <Curve speed="7.5:15" curvature="3.0" angle="0:50" length="100" spaceBefore="10" weight="1" />
+  <Curve speed="15:20" curvature="3.0" angle="0:50" length="100" spaceBefore="10" weight="1" />
+  <Curve speed="20:100" curvature="0.0" angle="0:00" length="100" spaceBefore="10" weight="1" />
+</CurveDefinitions>
